@@ -38,3 +38,8 @@ function buscarEstandarMIME($formato){
     $mime = $standarMIME[$formato];
     return $mime;
 }
+
+echo '<h1>Aquí se mostrarán un par de ejemplos</h1>';
+echo '<p>buscarEstandarMIME('pdf').'</p>';
+echo '<p>buscarEstandarMIME('png').'</p>';
+echo '<p>buscarEstandarMIME('doc').'</p>';

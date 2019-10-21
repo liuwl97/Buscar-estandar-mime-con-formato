@@ -4,10 +4,11 @@ function buscarEstandarMIMENombre($filename){
 
 function buscarEstandarMIMEFormato($formato){
     //Encuentra el estandar MIME https://developer.mozilla.org/es/docs/Web/HTTP/Basics_of_HTTP/MIME_types
-    return mime_content_type("example.$filename");
+    return mime_content_type("example.$formato");
 }
 
 echo '<h1>Aquí se mostrarán un par de ejemplos</h1>';
+
 echo '<p>buscarEstandarMIMEFormato('pdf').'</p>';
 echo '<p>buscarEstandarMIMEFormato('png').'</p>';
 echo '<p>buscarEstandarMIMEFormato('doc').'</p>';
